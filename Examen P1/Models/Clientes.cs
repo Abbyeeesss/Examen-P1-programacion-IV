@@ -27,7 +27,7 @@ public class Clientes
     [DataType(DataType.Date)]                                                                                                                                                                                                                                                                                                                                       
     public DateTime FechaNacimiento { get; set; }
     public bool Disponibilidad { get; set; }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
-    public List<Reserva> Reservas
+    public List<Reserva>? Reservas
     {
         get; set;
     }
